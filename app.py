@@ -17,10 +17,9 @@ from pypdf import PdfReader
 # ----------------------------------------------------------------------------
 # Config
 # ----------------------------------------------------------------------------
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 MODEL_OPTIONS = [
-    "llama-3.3-70b-versatile",
-    "llama-3.1-8b-instant",
+    "openai/gpt-oss-120b",
 ]
 MAX_RESUME_CHARS = 12000  # keep prompts within model limits
 MAX_JD_CHARS = 6000
